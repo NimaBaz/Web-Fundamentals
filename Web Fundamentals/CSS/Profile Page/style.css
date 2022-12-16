@@ -148,13 +148,12 @@ p {
 }
 
 .map {
-    width: 3%;
+    width: 8%;
     background-color: red;
 }
 
 .location {
     color: white;
-    padding: 5px;
     display: flex;
     align-items: center;
 }
