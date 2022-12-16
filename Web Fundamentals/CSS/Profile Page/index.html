@@ -6,21 +6,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Page</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
 <body>
-    <div class="card">
-        <div class="header"></div>
-        <img src="user-circle.png" alt="user" class="user"><br>
-        <h1 class="name">Nima Bazofti</h1><br>
-        <h2 class="location"><img src="map-marker.png" alt="drop pin" class="map"> San Jose</h2><br>
-        <p class="info">Developer | Engineer | Problem Solver <br>
-            Master of shadows and the Internet!
-        </p>
-        <br>
-        <h3 class="edit">
-            <img src="gear.png" alt="gear" class="cog"> 
-            <a href="#" class="edit">edit profile</a>
-        </h3>
+    <div class="nav">
+        <div class="nav-header">
+            <h1 class="nav-title">Profile</h1>
+            <a href="#" class="nav-text">Home</a>
+            <a href="#" class="nav-text">My Profile</a>
+            <a href="#" class="nav-text">Find Connections</a>
+        </div>
+        <div class="button">
+            <button class="btn">Sign Out</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="col1">
+            <div class="card">
+                <div class="main-header">
+                    <img src="Me.png" alt="user" class="user">
+                </div>
+                <div class="card-body">
+                    <h1 class="name">Nima Bazofti</h1>
+                    <h2 class="location">
+                        <img src="map-marker.png" alt="drop pin" class="map"> San Jose
+                    </h2>
+                    <p class="info">Developer | Engineer | Problem Solver <br>
+                        Master of shadows and the Internet!
+                    </p>
+                    <h3 class="edit-profile">
+                        <img src="gear.png" alt="gear" class="cog"> 
+                        <a href="#" class="edit-profile">edit profile</a>
+                    </h3>
+                </div>
+            </div>
+            <div class="card2">
+                <div class="header">
+                    <h1 class="title">Education</h1>
+                </div>
+                <div class="card2-body">
+                    <p class="info2">Coding Dojo - Full Stack Bootcamp <br>
+                        Dec 2019 - Mar 2020 <br>
+                        Triple black belt in Python, Mern, and C#...
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col2">
+            <div class="card3">
+                <div class="header">
+                    <span class="circle">2</span>
+                    <p class="title">Connection Requests</p>
+                </div>
+                <div class="card3-body">
+                    <a href="#" class="connections">
+                        <img src="jane-m.jpg" alt="jane" class="people"> 
+                        <p>Jane M</p> 
+                    </a>
+                    <div class="add-remove">
+                        <img src="accept-circle.png" alt="accept" class="icons">
+                        <img src="close-circle.png" alt="close" class="icons">
+                    </div>
+                </div>
+                <div class="card3-body">
+                    <a href="#" class="connections">
+                        <img src="phil-s.jpg" alt="phil" class="people"> 
+                        <p>Phil S</p> 
+                    </a>
+                    <div class="add-remove">
+                        <img src="accept-circle.png" alt="accept" class="icons">
+                        <img src="close-circle.png" alt="close" class="icons">
+                    </div>
+                </div>
+            </div>
+            <div class="card4">
+                <div class="header">
+                    <span class="circle">500+</span>
+                    <p class="title">Your Connections</p>
+                </div>
+                <div class="card4-body">
+                    <a href="#" class="connections">
+                        <img src="arry-s.jpg" alt="arry" class="people"> 
+                        <p>Arry S</p> 
+                    </a>
+                </div>
+                <div class="card4-body">
+                    <a href="#" class="connections">
+                        <img src="anne-s.jpg" alt="anne" class="people"> 
+                        <p>Anne S</p> 
+                    </a>
+                </div>
+                <div class="card4-body">
+                    <a href="#" class="connections">
+                        <img src="adrien-s.jpg" alt="adrien" class="people">
+                        <p>Adrien S</p> 
+                    </a>
+                </div>
+                <div class="card4-body">
+                    <a href="#" class="connections">
+                        <img src="todd-s.jpg" alt="todd" class="people"> Todd S
+                    </a>
+                </div>
+                <div class="view">
+                    <a href="#" class="view-more">View More</a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
