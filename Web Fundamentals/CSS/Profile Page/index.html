@@ -4,35 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Page</title>
+    <title>Profile</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="nav">
         <div class="nav-header">
             <h1 class="nav-title">Profile</h1>
             <a href="#" class="nav-text">Home</a>
-            <a href="#" class="nav-text">My Profile</a>
-            <a href="#" class="nav-text">Find Connections</a>
+            <a href="https://www.linkedin.com/in/nima-bazoft/" class="nav-text">My Profile</a>
+            <a href="https://www.linkedin.com/mynetwork/" class="nav-text">Find Connections</a>
         </div>
         <div class="button">
-            <button class="btn">Sign Out</button>
+            <button class="btn">
+                <a href="https://login.codingdojo.com/m/206/7758/53987" class="btn-edit">Sign Out</a>
+            </button>
         </div>
     </div>
     <div class="main">
         <div class="col1">
             <div class="card">
                 <div class="main-header">
-                    <img src="Me.png" alt="user" class="user">
+                    <img src="Palpatine.png" alt="palpatine" class="user">
                 </div>
                 <div class="card-body">
-                    <h1 class="name">Nima Bazofti</h1>
+                    <h1 class="name">Lord Palpatine</h1>
                     <h2 class="location">
-                        <img src="map-marker.png" alt="drop pin" class="map"> San Jose
+                        <img src="map-marker.png" alt="drop pin" class="map">
+                        <p class="location">Yavin IV</p> 
                     </h2>
-                    <p class="info">Developer | Engineer | Problem Solver <br>
-                        Master of shadows and the Internet!
+                    <p class="info">Sith Lord | Emperor | Chancellor <br>
+                        Master of shadows and the dark side of the force!
                     </p>
                     <h3 class="edit-profile">
                         <img src="gear.png" alt="gear" class="cog"> 
@@ -64,24 +68,34 @@
                         <p>Jane M</p> 
                     </a>
                     <div class="add-remove">
-                        <img src="accept-circle.png" alt="accept" class="icons">
-                        <img src="close-circle.png" alt="close" class="icons">
+                        <!-- <input type="text" id="candidate" /> -->
+                        <button class="add">
+                            <a href="#" class="add"><img src="accept-circle.png" alt="accept" class="icons"></a>
+                        </button>
+                        <button class="remove">
+                            <a href="#" class="remove"><img src="close-circle.png" alt="close" class="icons"></a>
+                        </button>
                     </div>
                 </div>
                 <div class="card3-body">
                     <a href="#" class="connections">
-                        <img src="phil-s.jpg" alt="phil" class="people"> 
-                        <p>Phil S</p> 
+                        <img src="Me3.jpg" alt="nima" class="people"> 
+                        <p>Nima B</p> 
                     </a>
                     <div class="add-remove">
-                        <img src="accept-circle.png" alt="accept" class="icons">
-                        <img src="close-circle.png" alt="close" class="icons">
+                        <!-- <input type="text" id="candidate" /> -->
+                        <button class="add">
+                            <a href="#" class="add"><img src="accept-circle.png" alt="accept" class="icons"></a>
+                        </button>
+                        <button class="remove">
+                            <a href="#" class="remove"><img src="close-circle.png" alt="close" class="icons"></a>
+                        </button>
                     </div>
                 </div>
             </div>
             <div class="card4">
                 <div class="header">
-                    <span class="circle">500+</span>
+                    <span class="circle2">500+</span>
                     <p class="title">Your Connections</p>
                 </div>
                 <div class="card4-body">
@@ -104,14 +118,15 @@
                 </div>
                 <div class="card4-body">
                     <a href="#" class="connections">
-                        <img src="todd-s.jpg" alt="todd" class="people"> Todd S
+                        <img src="todd-s.jpg" alt="todd" class="people">
+                        <p>Todd S</p> 
                     </a>
                 </div>
-                <div class="view">
-                    <a href="#" class="view-more">View More</a>
-                </div>
+                <a href="#" class="view">View More</a>
             </div>
         </div>
     </div>
+
 </body>
 </html>
+
