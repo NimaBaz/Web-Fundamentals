@@ -7,7 +7,6 @@
     <title>Profile</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-    <script src="script.js"></script>
 </head>
 <body>
 
@@ -118,12 +117,14 @@
                         </p> 
                     </a>
                     <div class="add-remove">
-                        <button class="add">
+                        <!-- <ul id="list"></ul>
+                        <input type="text" id="candidate" /> -->
+                        <button onclick="addItem()" class="add">
                             <a href="#" class="add">
                                 <img src="accept-circle.png" alt="accept" class="icons">
                             </a>
                         </button>
-                        <button class="remove">
+                        <button onclick="removeItem()" class="remove">
                             <a href="#" class="remove">
                                 <img src="close-circle.png" alt="close" class="icons">
                             </a>
@@ -138,12 +139,12 @@
                         </p> 
                     </a>
                     <div class="add-remove">
-                        <button class="add">
+                        <button onclick="addItem()" class="add">
                             <a href="#" class="add">
                                 <img src="accept-circle.png" alt="accept" class="icons">
                             </a>
                         </button>
-                        <button class="remove">
+                        <button onclick="removeItem()" class="remove">
                             <a href="#" class="remove">
                                 <img src="close-circle.png" alt="close" class="icons">
                             </a>
@@ -209,6 +210,7 @@
     </div>
     <!-- MAIN BODY -->
 
+    <script src="script.js"></script>  
 </body>
 </html>
 
