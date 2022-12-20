@@ -10,7 +10,10 @@
 <body>
     <button onclick="changeText(this)" class="btn1">Login</button>
     <button onclick="removeButton(this)" class="btn2">Add Definition</button>
-    <button onclick="alert('Ninja was liked')" class="btn3">Like</button>
+    <button onclick="liked(this)" class="btn3">
+        <span id="timesClicked">0</span>
+        <span id="">Likes</span>
+    </button>
     <script src="script.js"></script>
 </body>
 </html>

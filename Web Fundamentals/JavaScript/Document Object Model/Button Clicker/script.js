@@ -12,7 +12,13 @@ function removeButton(element) {
 
 }
 
+timesClicked = 0;
+
 function liked() {
     alert('Ninja was liked');
+    timesClicked++;
+
+    document.getElementById("timesClicked").innerHTML = timesClicked;
+    return true;
 }
 
