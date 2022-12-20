@@ -22,3 +22,13 @@ function liked() {
     return true;
 }
 
+timesClicked2 = 0;
+
+function liked2() {
+    alert('Ninja was liked');
+    timesClicked2++;
+
+    document.getElementById("timesClicked2").innerHTML = timesClicked2;
+    return true;
+}
+
