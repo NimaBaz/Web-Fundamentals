@@ -9,4 +9,10 @@ function changeText(element) {
 
 function removeButton(element) {
     element.remove();
+
 }
+
+function liked() {
+    alert('Ninja was liked');
+}
+
