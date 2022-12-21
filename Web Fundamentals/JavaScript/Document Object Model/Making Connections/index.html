@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Page</title>
+    <title>profile</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -35,13 +35,13 @@
                     <img src="images/jane-m.jpg" alt="jane" class="avatar-m">
                 </div>
                 <div class="card-body">
-                    <h1>Jane Doe</h1>
+                    <h1 id="edit">Jane Doe</h1>
                     <h3><img src="icons/map-marker.png" alt="pin" class="icon-s"> Seattle</h3>
                     <p>Developer | Engineer | Problem Solver<br>
                     Master of shadows and the Internet!</p>
                     <p>
-                        <a href="#" id="edit" onclick="switchName(this)">
-                            <img src="icons/gear.png" alt="gear" class="icon-s"> edit profile
+                        <a href="#" onclick="switchName('#edit')">
+                            <img src="icons/gear.png" alt="gear" class="icon-s" id="image"> edit profile
                         </a>
                     </p>
                 </div>
@@ -67,28 +67,28 @@
             <!-- connection requests card -->
             <div class="card">
                 <div class="card-header">
-                    <span class="badge">2</span>
+                    <span class="badge" id="total-connections">2</span>
                     <h3>Connection Requests</h3>
                 </div>
                 <ul class="card-list">
-                    <li class="card-list-item">
+                    <li class="card-list-item" id="user1">
                         <span>
                             <img src="images/todd-s.jpg" alt="todd" class="avatar-s">
                             Todd E
                         </span>
                         <span>
-                            <img src="icons/accept-circle.png" alt="accept" class="icon">
-                            <img src="icons/close-circle.png" alt="close" class="icon">
+                            <img src="icons/accept-circle.png" alt="accept" class="icon" onclick="addRemoveItem('#user1', true)">
+                            <img src="icons/close-circle.png" alt="close" class="icon" onclick="addRemoveItem('#user1')">
                         </span>
                     </li>
-                    <li class="card-list-item">
+                    <li class="card-list-item" id="user2">
                         <span>
                             <img src="images/phil-s.jpg" alt="phil" class="avatar-s">
                             Phil E
                         </span>
                         <span>
-                            <img src="icons/accept-circle.png" alt="accept" class="icon">
-                            <img src="icons/close-circle.png" alt="close" class="icon">
+                            <img src="icons/accept-circle.png" alt="accept" class="icon" onclick="addRemoveItem('#user2', true)">
+                            <img src="icons/close-circle.png" alt="close" class="icon" onclick="addRemoveItem('#user2')">
                         </span>
                     </li>
                 </ul>
@@ -97,7 +97,7 @@
             <!-- your connections card -->
             <div class="card">
                 <div class="card-header">
-                    <span class="badge">500+</span>
+                    <span class="badge" id="new-connections">500</span>
                     <h3>Your Connections</h3>
                 </div>
                 <ul class="card-list">

@@ -1,19 +1,18 @@
-// Creating a function to add item from list
-function addItem(id) {
-    
-}
-// Creating a function to remove item from list
-function removeItem(id) {
-    
+// Creating a function to add and remove item from list
+function addRemoveItem(id, response) {
+    if (response) {
+        document.querySelector('#new-connections').innerText++;
+    }
+    document.querySelector('#total-connections').innerText--;
+    document.querySelector(id).remove();
 }
 
-
-function switchName(element) {
-    if (element.innerText == "Jane Doe") {
-        element.innerText = "Nima Bazofti";
+function switchName(id) {
+    if (document.querySelector(id).innerText == "Jane Doe") {
+        document.querySelector(id).innerText = "Nima Bazofti";
     }
     else {
-        element.innerText = "Jane Doe"
+        document.querySelector(id).innerText = "Jane Doe"
     }
 }
 
