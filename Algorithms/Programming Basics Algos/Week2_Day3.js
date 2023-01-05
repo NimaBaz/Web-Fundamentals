@@ -90,17 +90,17 @@
 // Analyze and array's values and print the average.
 
 
-function PrintAverageOfArray(arr) {
-    var average = 0;
-    var sum = 0
-    for (var i = 0; i < arr.length; i++) {
-        sum += arr[i];
-    }
-    console.log(sum);
-}
+// function PrintAverageOfArray(arr) {
+//     var average = 0;
+//     var sum = 0
+//     for (var i = 0; i < arr.length; i++) {
+//         sum += arr[i];
+//     }
+//     console.log(sum);
+// }
 
-var a = [0, 16, 18, 25]
-PrintAverageOfArray(a)
+// var a = [0, 16, 18, 25]
+// PrintAverageOfArray(a)
 
 
 

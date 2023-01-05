@@ -49,9 +49,9 @@
 // Example: Given (3,5,17,9), the output should be 6,12,15 on successive lines, because 6,12, and 15 are multiples of 3, 
 // between 5 and 17, and excludes the value of 9.
 
-function flexibleCountdown(param1, param2, param3, param4) {
+// function flexibleCountdown(param1, param2, param3, param4) {
     
-}
+// }
 
-flexibleCountdown(3, 5, 17, 9)
+// flexibleCountdown(3, 5, 17, 9)
 

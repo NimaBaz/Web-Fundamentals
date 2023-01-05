@@ -34,8 +34,9 @@
 // // That's odd!
 
 
-var arr = [1, 3, 5, 8, 8, 8]
+// var arr = [1, 3, 5, 8, 8, 8]
 
-for (var i = 0; i < arr.length; i++) {
-    if 
-}
+// for (var i = 0; i < arr.length; i++) {
+//     if 
+// }
+
